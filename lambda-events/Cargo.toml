@@ -79,6 +79,7 @@ default = [
   "streams",
   "documentdb",
   "eventbridge",
+  "vpc_lattice",
 ]
 
 activemq = []
@@ -123,3 +124,4 @@ sqs = ["serde_with"]
 streams = []
 documentdb = []
 eventbridge = ["chrono", "serde_with"]
+vpc_lattice = ["bytes", "http", "http-body", "http-serde", "query_map"]
